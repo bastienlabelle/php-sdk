@@ -3,26 +3,13 @@ Facebook PHP SDK
 
 The [Facebook Platform](http://developers.facebook.com/) is
 a set of APIs that make your application more social. Read more about
-[integrating Facebook with your web site](http://developers.facebook.com/docs/guides/web) on the Facebook developer site.
+[integrating Facebook with your web site](http://developers.facebook.com/docs/guides/web)
+on the Facebook developer site.
 
 This repository contains the open source PHP SDK that allows you to utilize the
 above on your website. Except as otherwise noted, the Facebook PHP SDK
 is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html)
-
-
-Status
-------
-
-This is an **alpha** release. In order to guide the development of the library
-and allow you to freely inspect and use the source, we have open sourced the
-client PHP SDK. We do not have all the features we intend to build, but we will
-be building them incrementally in a transparent manner.
-
-Currently, we have the first iteration of the PHP APIs that allow you to:
-
-- Handle Authentication
-- Make API calls
 
 
 Usage
@@ -57,8 +44,8 @@ Logged in vs Logged out:
       echo '<a href="' . $facebook->getLoginUrl() . '">Login</a>';
     }
 
-[examples]: php-sdk/tree/master/index.php
-[API]: http://wiki.developers.facebook.com/index.php/API
+[examples]: http://github.com/facebook/php-sdk/blob/master/examples/example.php
+[API]: http://developers.facebook.com/docs/api
 
 
 Feedback
